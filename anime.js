@@ -18,13 +18,16 @@ var c = canvas.getContext("2d");
         canvas.height=window.innerHeight;;
     canvas.width=window.innerWidth;
     }
-    canvas.addEventListener("mousemove",fn1);
-    canvas.addEventListener("touchstart",fn1);
-    window.addEventListener("resize",fn3);
     erpos=()=>{
         pos.px=undefined;
         pos.py=undefined;
     }
+    canvas.addEventListener("mousemove",fn1);
+    canvas.addEventListener("touchstart",fn1);
+    canvas.addEventListener("touchmove",fn1);
+    canvas.addEventListener("touchend",erpos);
+    window.addEventListener("resize",fn3);
+    
 
     function Cir(x,y,dx,dy,radius){
         this.x=x;
