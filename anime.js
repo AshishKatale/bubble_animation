@@ -59,7 +59,7 @@ var c = canvas.getContext("2d");
 
             if(Math.abs(pos.px-this.x)<30 && Math.abs(pos.py-this.y)<30){
                 if(this.radius<this.maxRadius) this.radius+=3;
-            }
+            } 
             else if(this.radius>radius){
                 
                 if(this.radius>radius && this.radius>this.minRadius)
