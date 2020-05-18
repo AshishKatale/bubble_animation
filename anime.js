@@ -27,8 +27,8 @@ var c = canvas.getContext("2d");
         pos.py=undefined;
     }
     canvas.addEventListener("mousemove",fn1);
-    canvas.addEventListener("touchstart",fn1);
-    canvas.addEventListener("touchmove",fn1);
+    canvas.addEventListener("touchstart",fn4);
+    canvas.addEventListener("touchmove",fn4);
     canvas.addEventListener("touchend",erpos);
     window.addEventListener("resize",fn3);
     
