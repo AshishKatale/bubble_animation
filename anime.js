@@ -19,7 +19,7 @@ var c = canvas.getContext("2d");
     canvas.width=window.innerWidth;
     }
     canvas.addEventListener("mousemove",fn1);
-    canvas.addEventListener("touchmove",fn1);
+    canvas.addEventListener("touchstart",fn1);
     window.addEventListener("resize",fn3);
     erpos=()=>{
         pos.px=undefined;
