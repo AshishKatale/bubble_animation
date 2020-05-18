@@ -18,6 +18,10 @@ var c = canvas.getContext("2d");
         canvas.height=window.innerHeight;;
     canvas.width=window.innerWidth;
     }
+    fn4=()=>{
+	   pos.px = event.touches[0].clientX;
+  	   pos.py = event.touches[0].clientY;    
+    }
     erpos=()=>{
         pos.px=undefined;
         pos.py=undefined;
