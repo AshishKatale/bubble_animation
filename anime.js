@@ -1,7 +1,7 @@
 var canvas = document.getElementById("can");
 canvas.style.backgroundColor="lightgrey";
 var c = canvas.getContext("2d");
-    canvas.height=window.innerHeight;;
+    canvas.height=window.innerHeight;
     canvas.width=window.innerWidth;
     var a=[];
     var r=5;  
@@ -19,6 +19,7 @@ var c = canvas.getContext("2d");
     canvas.width=window.innerWidth;
     }
     canvas.addEventListener("mousemove",fn1);
+    canvas.addEventListener("touchmove",fn1);
     window.addEventListener("resize",fn3);
     erpos=()=>{
         pos.px=undefined;
