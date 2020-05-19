@@ -70,7 +70,7 @@ var c = canvas.getContext("2d");
             //     this.y+=5*dy;
             // }
             
-            this.draw(this.x,this.y);
+            this.draw();
 
         }
     }
