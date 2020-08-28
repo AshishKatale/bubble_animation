@@ -75,7 +75,7 @@ var c = canvas.getContext("2d");
         }
     }
     
-    for(var i=0;i<2000;i++){
+    for(var i=0;i<1200;i++){
         let x=(Math.random()*(canvas.width-2*r))+r;
         let y=(Math.random()*(canvas.height-2*r))+r;
         let dx=(Math.random()- 0.5)*5;
