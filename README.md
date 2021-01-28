@@ -1,2 +1,2 @@
 # animations
-https://ashish-github-acc.github.io/bubble_animation/
+https://ashishkatale.github.io/bubble_animation/
